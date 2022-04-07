@@ -1,0 +1,27 @@
+/*------------------------------------------------------------------------------
+PAGINATION
+------------------------------------------------------------------------------*/
+
+div.oxy-repeater-pages-wrap{
+	
+	position:absolute;
+	bottom:0;
+	left:50%;
+	transform:translateX(-50%);
+}
+
+.oxy-repeater-pages span.current{
+	
+	padding:1rem;
+	margin:0 .5rem;
+	color:var(--primary-color);
+	border:1px solid var(--primary-color);
+}
+
+.oxy-repeater-pages a{
+	
+	padding:1rem;
+	margin:0 .5rem;
+	color:var(--secondary-color);
+	border:1px solid var(--secondary-color);
+}
