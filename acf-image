@@ -1,0 +1,10 @@
+<?php
+/**
+* Use in code block within ACF Oxygen Repeater to display ACF image object.
+*/
+$image = get_sub_field( 'image' );
+$size = 'full'; // (thumbnail, medium, large, full or custom size)
+if ( $image ) {
+echo wp_get_attachment_image( $image, $size );
+}
+?>
